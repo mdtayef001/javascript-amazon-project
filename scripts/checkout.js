@@ -20,7 +20,7 @@ cart.forEach((cartItem) => {
     js-cart-item-container-${matchingProduct.id}">
             <div class="delivery-date">Delivery date: Tuesday, June 21</div>
 
-         <div class="cart-item-details-grid">
+        <div class="cart-item-details-grid">
             <img
             class="product-image"
             src="${matchingProduct.image}"/>
@@ -88,7 +88,7 @@ cart.forEach((cartItem) => {
              </div>
          </div>
      </div>
-    </div>`;
+  </div>`;
 });
 
 document.querySelector(".js-order-summery").innerHTML = cartSummeryHTML;
